@@ -42,7 +42,7 @@ NSString * const KBPhotoNotAuthorizedErrorDomain = @"KBPhotoNotAuthorizedErrorDo
 + (void)fetchAllPhotoAlbums:(void (^)(NSMutableArray *albums, NSError *error))completion
 {
     // iOS 8.0
-    if ([[[UIDevice currentDevice] systemVersion] compare:@"10.0" options:NSNumericSearch] != NSOrderedAscending) {
+    if ([[[UIDevice currentDevice] systemVersion] compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending) {
         [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 if (status == PHAuthorizationStatusAuthorized) {
