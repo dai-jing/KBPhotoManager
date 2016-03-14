@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F095BBD1C8DE53A0083D06A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F095BBC1C8DE53A0083D06A /* Default-568h@2x.png */; };
+		0F0F95A51C8F378A00F5FF11 /* KBPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F95A41C8F378A00F5FF11 /* KBPhotoAlbum.m */; };
+		0F1A50C81C8DD49800AD8BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A50C71C8DD49800AD8BFF /* main.m */; };
+		0F1A50CB1C8DD49800AD8BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A50CA1C8DD49800AD8BFF /* AppDelegate.m */; };
+		0F1A50CE1C8DD49800AD8BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A50CD1C8DD49800AD8BFF /* ViewController.m */; };
+		0F1A50D31C8DD49800AD8BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1A50D21C8DD49800AD8BFF /* Assets.xcassets */; };
+		0F1A50E11C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A50E01C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.m */; };
+		0F1A50EC1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A50EB1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.m */; };
+		0F1A50FB1C8DD53400AD8BFF /* KBPhotoAssetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A50FA1C8DD53400AD8BFF /* KBPhotoAssetsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F1A50DD1C8DD49900AD8BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F1A50BB1C8DD49800AD8BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1A50C21C8DD49800AD8BFF;
+			remoteInfo = KBPhotoAssetsManager;
+		};
+		0F1A50E81C8DD49900AD8BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F1A50BB1C8DD49800AD8BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1A50C21C8DD49800AD8BFF;
+			remoteInfo = KBPhotoAssetsManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F095BBC1C8DE53A0083D06A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F0F95A31C8F378A00F5FF11 /* KBPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPhotoAlbum.h; sourceTree = "<group>"; };
+		0F0F95A41C8F378A00F5FF11 /* KBPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPhotoAlbum.m; sourceTree = "<group>"; };
+		0F1A50C31C8DD49800AD8BFF /* KBPhotoAssetsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBPhotoAssetsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A50C71C8DD49800AD8BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F1A50C91C8DD49800AD8BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F1A50CA1C8DD49800AD8BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F1A50CC1C8DD49800AD8BFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F1A50CD1C8DD49800AD8BFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F1A50D21C8DD49800AD8BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1A50D71C8DD49800AD8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1A50DC1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBPhotoAssetsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A50E01C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBPhotoAssetsManagerTests.m; sourceTree = "<group>"; };
+		0F1A50E21C8DD49900AD8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1A50E71C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBPhotoAssetsManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A50EB1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBPhotoAssetsManagerUITests.m; sourceTree = "<group>"; };
+		0F1A50ED1C8DD49900AD8BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1A50F91C8DD53400AD8BFF /* KBPhotoAssetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPhotoAssetsManager.h; sourceTree = "<group>"; };
+		0F1A50FA1C8DD53400AD8BFF /* KBPhotoAssetsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPhotoAssetsManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1A50C01C8DD49800AD8BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A50D91C8DD49900AD8BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A50E41C8DD49900AD8BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1A50BA1C8DD49800AD8BFF = {
+			isa = PBXGroup;
+			children = (
+				0F095BBC1C8DE53A0083D06A /* Default-568h@2x.png */,
+				0F1A50C51C8DD49800AD8BFF /* KBPhotoAssetsManager */,
+				0F1A50DF1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests */,
+				0F1A50EA1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests */,
+				0F1A50C41C8DD49800AD8BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F1A50C41C8DD49800AD8BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A50C31C8DD49800AD8BFF /* KBPhotoAssetsManager.app */,
+				0F1A50DC1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.xctest */,
+				0F1A50E71C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1A50C51C8DD49800AD8BFF /* KBPhotoAssetsManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A50F91C8DD53400AD8BFF /* KBPhotoAssetsManager.h */,
+				0F1A50FA1C8DD53400AD8BFF /* KBPhotoAssetsManager.m */,
+				0F0F95A31C8F378A00F5FF11 /* KBPhotoAlbum.h */,
+				0F0F95A41C8F378A00F5FF11 /* KBPhotoAlbum.m */,
+				0F1A50C91C8DD49800AD8BFF /* AppDelegate.h */,
+				0F1A50CA1C8DD49800AD8BFF /* AppDelegate.m */,
+				0F1A50CC1C8DD49800AD8BFF /* ViewController.h */,
+				0F1A50CD1C8DD49800AD8BFF /* ViewController.m */,
+				0F1A50D21C8DD49800AD8BFF /* Assets.xcassets */,
+				0F1A50D71C8DD49800AD8BFF /* Info.plist */,
+				0F1A50C61C8DD49800AD8BFF /* Supporting Files */,
+			);
+			path = KBPhotoAssetsManager;
+			sourceTree = "<group>";
+		};
+		0F1A50C61C8DD49800AD8BFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A50C71C8DD49800AD8BFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F1A50DF1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A50E01C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.m */,
+				0F1A50E21C8DD49900AD8BFF /* Info.plist */,
+			);
+			path = KBPhotoAssetsManagerTests;
+			sourceTree = "<group>";
+		};
+		0F1A50EA1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A50EB1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.m */,
+				0F1A50ED1C8DD49900AD8BFF /* Info.plist */,
+			);
+			path = KBPhotoAssetsManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1A50C21C8DD49800AD8BFF /* KBPhotoAssetsManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1A50F01C8DD49900AD8BFF /* Build configuration list for PBXNativeTarget "KBPhotoAssetsManager" */;
+			buildPhases = (
+				0F1A50BF1C8DD49800AD8BFF /* Sources */,
+				0F1A50C01C8DD49800AD8BFF /* Frameworks */,
+				0F1A50C11C8DD49800AD8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBPhotoAssetsManager;
+			productName = KBPhotoAssetsManager;
+			productReference = 0F1A50C31C8DD49800AD8BFF /* KBPhotoAssetsManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F1A50DB1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1A50F31C8DD49900AD8BFF /* Build configuration list for PBXNativeTarget "KBPhotoAssetsManagerTests" */;
+			buildPhases = (
+				0F1A50D81C8DD49900AD8BFF /* Sources */,
+				0F1A50D91C8DD49900AD8BFF /* Frameworks */,
+				0F1A50DA1C8DD49900AD8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F1A50DE1C8DD49900AD8BFF /* PBXTargetDependency */,
+			);
+			name = KBPhotoAssetsManagerTests;
+			productName = KBPhotoAssetsManagerTests;
+			productReference = 0F1A50DC1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F1A50E61C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1A50F61C8DD49900AD8BFF /* Build configuration list for PBXNativeTarget "KBPhotoAssetsManagerUITests" */;
+			buildPhases = (
+				0F1A50E31C8DD49900AD8BFF /* Sources */,
+				0F1A50E41C8DD49900AD8BFF /* Frameworks */,
+				0F1A50E51C8DD49900AD8BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F1A50E91C8DD49900AD8BFF /* PBXTargetDependency */,
+			);
+			name = KBPhotoAssetsManagerUITests;
+			productName = KBPhotoAssetsManagerUITests;
+			productReference = 0F1A50E71C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F1A50BB1C8DD49800AD8BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = daijing;
+				TargetAttributes = {
+					0F1A50C21C8DD49800AD8BFF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0F1A50DB1C8DD49900AD8BFF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0F1A50C21C8DD49800AD8BFF;
+					};
+					0F1A50E61C8DD49900AD8BFF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0F1A50C21C8DD49800AD8BFF;
+					};
+				};
+			};
+			buildConfigurationList = 0F1A50BE1C8DD49800AD8BFF /* Build configuration list for PBXProject "KBPhotoAssetsManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F1A50BA1C8DD49800AD8BFF;
+			productRefGroup = 0F1A50C41C8DD49800AD8BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F1A50C21C8DD49800AD8BFF /* KBPhotoAssetsManager */,
+				0F1A50DB1C8DD49900AD8BFF /* KBPhotoAssetsManagerTests */,
+				0F1A50E61C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1A50C11C8DD49800AD8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A50D31C8DD49800AD8BFF /* Assets.xcassets in Resources */,
+				0F095BBD1C8DE53A0083D06A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A50DA1C8DD49900AD8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A50E51C8DD49900AD8BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1A50BF1C8DD49800AD8BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A50CE1C8DD49800AD8BFF /* ViewController.m in Sources */,
+				0F1A50CB1C8DD49800AD8BFF /* AppDelegate.m in Sources */,
+				0F0F95A51C8F378A00F5FF11 /* KBPhotoAlbum.m in Sources */,
+				0F1A50FB1C8DD53400AD8BFF /* KBPhotoAssetsManager.m in Sources */,
+				0F1A50C81C8DD49800AD8BFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A50D81C8DD49900AD8BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A50E11C8DD49900AD8BFF /* KBPhotoAssetsManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F1A50E31C8DD49900AD8BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A50EC1C8DD49900AD8BFF /* KBPhotoAssetsManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F1A50DE1C8DD49900AD8BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1A50C21C8DD49800AD8BFF /* KBPhotoAssetsManager */;
+			targetProxy = 0F1A50DD1C8DD49900AD8BFF /* PBXContainerItemProxy */;
+		};
+		0F1A50E91C8DD49900AD8BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1A50C21C8DD49800AD8BFF /* KBPhotoAssetsManager */;
+			targetProxy = 0F1A50E81C8DD49900AD8BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F1A50EE1C8DD49900AD8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F1A50EF1C8DD49900AD8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F1A50F11C8DD49900AD8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBPhotoAssetsManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBPhotoAssetsManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F1A50F21C8DD49900AD8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBPhotoAssetsManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBPhotoAssetsManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F1A50F41C8DD49900AD8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBPhotoAssetsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBPhotoAssetsManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBPhotoAssetsManager.app/KBPhotoAssetsManager";
+			};
+			name = Debug;
+		};
+		0F1A50F51C8DD49900AD8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBPhotoAssetsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBPhotoAssetsManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBPhotoAssetsManager.app/KBPhotoAssetsManager";
+			};
+			name = Release;
+		};
+		0F1A50F71C8DD49900AD8BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBPhotoAssetsManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBPhotoAssetsManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBPhotoAssetsManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0F1A50F81C8DD49900AD8BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBPhotoAssetsManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBPhotoAssetsManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBPhotoAssetsManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1A50BE1C8DD49800AD8BFF /* Build configuration list for PBXProject "KBPhotoAssetsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A50EE1C8DD49900AD8BFF /* Debug */,
+				0F1A50EF1C8DD49900AD8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1A50F01C8DD49900AD8BFF /* Build configuration list for PBXNativeTarget "KBPhotoAssetsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A50F11C8DD49900AD8BFF /* Debug */,
+				0F1A50F21C8DD49900AD8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1A50F31C8DD49900AD8BFF /* Build configuration list for PBXNativeTarget "KBPhotoAssetsManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A50F41C8DD49900AD8BFF /* Debug */,
+				0F1A50F51C8DD49900AD8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1A50F61C8DD49900AD8BFF /* Build configuration list for PBXNativeTarget "KBPhotoAssetsManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A50F71C8DD49900AD8BFF /* Debug */,
+				0F1A50F81C8DD49900AD8BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F1A50BB1C8DD49800AD8BFF /* Project object */;
+}
