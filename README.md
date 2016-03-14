@@ -18,5 +18,5 @@ It will solve the problems blurry thumbnails using ALAssets since thumbnail imag
             // >= iOS 8 album object will contain an array of PHAsset objects
             // <= iOS 7 album object will contain an array of ALAsset objects
         }
-    }];
+}];
 ```
